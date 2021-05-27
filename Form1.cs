@@ -47,75 +47,99 @@ namespace TicTacToe
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn4TTT.Text == "X" && Btn5TTT.Text == "X" && Btn6TTT.Text == "X")
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn7TTT.Text == "X" && Btn8TTT.Text == "X" && Btn9TTT.Text == "X")
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             // vertical winning pattern
@@ -123,75 +147,99 @@ namespace TicTacToe
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn2TTT.Text == "X" && Btn5TTT.Text == "X" && Btn8TTT.Text == "X")
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn3TTT.Text == "X" && Btn6TTT.Text == "X" && Btn9TTT.Text == "X")
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             // diagonal winning pattern
@@ -199,50 +247,65 @@ namespace TicTacToe
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn3TTT.Text == "X" && Btn5TTT.Text == "X" && Btn7TTT.Text == "X")
             {
                 MessageBox.Show("Player X Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
-                Btn2TTT.Enabled = true;
-                Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             // For O
@@ -251,31 +314,39 @@ namespace TicTacToe
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
-                Btn4TTT.Enabled = true;
-                Btn5TTT.Enabled = true;
-                Btn6TTT.Enabled = true;
-                Btn7TTT.Enabled = true;
-                Btn8TTT.Enabled = true;
-                Btn9TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-                Btn1TTT.Text = "";
-                Btn2TTT.Text = "";
-                Btn3TTT.Text = "";
-                Btn4TTT.Text = "";
-                Btn5TTT.Text = "";
-                Btn6TTT.Text = "";
-                Btn7TTT.Text = "";
-                Btn8TTT.Text = "";
-                Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn4TTT.Text == "O" && Btn5TTT.Text == "O" && Btn6TTT.Text == "O")
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -295,12 +366,19 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn7TTT.Text == "O" && Btn8TTT.Text == "O" && Btn9TTT.Text == "O")
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -320,6 +398,12 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             // vertical winning pattern
@@ -327,6 +411,7 @@ namespace TicTacToe
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -346,12 +431,19 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn2TTT.Text == "O" && Btn5TTT.Text == "O" && Btn8TTT.Text == "O")
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -371,12 +463,19 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn3TTT.Text == "O" && Btn6TTT.Text == "O" && Btn9TTT.Text == "O")
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -396,6 +495,12 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
+                }
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             // diagonal winning pattern
@@ -403,6 +508,7 @@ namespace TicTacToe
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -422,12 +528,20 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
             }
 
             if (Btn3TTT.Text == "O" && Btn5TTT.Text == "O" && Btn7TTT.Text == "O")
             {
                 MessageBox.Show("Player O Wins! Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo);
                 if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
                     Btn1TTT.Enabled = true;
                     Btn2TTT.Enabled = true;
                     Btn3TTT.Enabled = true;
@@ -447,37 +561,54 @@ namespace TicTacToe
                     Btn7TTT.Text = "";
                     Btn8TTT.Text = "";
                     Btn9TTT.Text = "";
-               
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
 
             }
-            // IF DRAW
-            else
-
             if (turn_count == 9)
-                MessageBox.Show("No one wins! Would you like to try again?", "Ouch", MessageBoxButtons.YesNo);
-            if (MessageBox.Show("No one wins! Would you like to try again?", "Ouch", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                Btn1TTT.Enabled = true;
-            Btn2TTT.Enabled = true;
-            Btn3TTT.Enabled = true;
-            Btn4TTT.Enabled = true;
-            Btn5TTT.Enabled = true;
-            Btn6TTT.Enabled = true;
-            Btn7TTT.Enabled = true;
-            Btn8TTT.Enabled = true;
-            Btn9TTT.Enabled = true;
+            {
+                MessageBox.Show("It's a Draw! Would you like to try again?", "Ouch!", MessageBoxButtons.YesNo);
+                if (MessageBox.Show("It's a Draw! Would you like to try again?", "Ouch!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    Btn1TTT.Enabled = true;
+                    Btn2TTT.Enabled = true;
+                    Btn3TTT.Enabled = true;
+                    Btn4TTT.Enabled = true;
+                    Btn5TTT.Enabled = true;
+                    Btn6TTT.Enabled = true;
+                    Btn7TTT.Enabled = true;
+                    Btn8TTT.Enabled = true;
+                    Btn9TTT.Enabled = true;
 
-            Btn1TTT.Text = "";
-            Btn2TTT.Text = "";
-            Btn3TTT.Text = "";
-            Btn4TTT.Text = "";
-            Btn5TTT.Text = "";
-            Btn6TTT.Text = "";
-            Btn7TTT.Text = "";
-            Btn8TTT.Text = "";
-            Btn9TTT.Text = "";
+                    Btn1TTT.Text = "";
+                    Btn2TTT.Text = "";
+                    Btn3TTT.Text = "";
+                    Btn4TTT.Text = "";
+                    Btn5TTT.Text = "";
+                    Btn6TTT.Text = "";
+                    Btn7TTT.Text = "";
+                    Btn8TTT.Text = "";
+                    Btn9TTT.Text = "";
+                }
+
+                if (MessageBox.Show("This will close down the whole application. Confirm?", "Close Application", MessageBoxButtons.YesNo) == DialogResult.No)
+                {
+                    Application.Exit();
+
+                }
+            }
+            
+            }
+
+
+            }
 
         }
 
 
-    }
-}
+            
